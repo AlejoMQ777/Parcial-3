@@ -46,7 +46,7 @@ def elegir_lugar(mapa):
             if mapa[fila][col] == "L":
                 return (fila, col)
             elif mapa[fila][col] == "V":
-                print("🚧 Esa posición es una vía, no se puede parquear ahí.")
+                print(" Esa posición es una vía, no se puede parquear ahí.")
             else:
                 print(" Lugar ocupado o no disponible.")
         except (ValueError, IndexError):
